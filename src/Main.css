@@ -1,7 +1,7 @@
 .main {
   display: flex;
   justify-content: center;
-  padding-left: 40%;
+  padding-left: 30%;
   padding-right: 20%;
   padding-top: 80px;
   width: 100%;
@@ -24,6 +24,7 @@
   font-size: 40px;
   width: 620px;
   height: 130px;
+  font-family: "Poppins";
   text-align: center;
   align-items: center;
 
@@ -37,10 +38,70 @@
   font-size: 16px;
   width: 605px;
   height: 60px;
+  font-family: "Roboto";
   text-align: center;
   line-height: 30px;
   color: #ffffff;
 }
 .hero {
   mix-blend-mode: luminosity;
+}
+@media (max-width: 768px) {
+  .talents {
+    font-size: 30px;
+    width: 500px;
+  }
+  .vibrant {
+    font-size: 14px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    width: 200px;
+    height: 259px;
+    padding-right: 20px;
+  }
+  .main {
+    padding-left: 20%;
+  }
+}
+@media (max-width: 1110px) {
+  .talents {
+    font-size: 35px;
+    width: 500px;
+    height: 110px;
+  }
+  .vibrant {
+    font-size: 13px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .talents {
+    font-size: 23px;
+    width: 350px;
+    height: 110px;
+  }
+  .vibrant {
+    font-size: 13px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero {
+    width: 150px;
+    height: 259px;
+    padding-right: 20px;
+  }
 }

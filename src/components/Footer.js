@@ -8,11 +8,11 @@ const Footer = () => {
     <div className="Footers">
       <div className="width">
         <div>
-          <img src={logos} />
+          <img className="omoor" src={logos} />
         </div>
       </div>
       <div className="Footer">
-        <div>
+        <div className="bttnn">
           <p className="engagings">
             Your ulitmate email solution to grow business and engaging with
             future customers and clients.

@@ -50,7 +50,7 @@ const Form = () => {
             <br />
             <input
               placeholder="Enter Your Company Name"
-              className="name"
+              className="numbers"
               type="text"
             />
           </label>

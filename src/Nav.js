@@ -6,22 +6,26 @@ const Nav = () => {
     <div>
       <nav>
         <div>
-          <img src={logo1} />
+          <img className="scarees" src={logo1} />
         </div>
 
         <div className="links">
-          <a className="post" href="">
-            Post job
-          </a>
-          <a className="programs" href="">
-            Programs
-          </a>
-          <a className="service" href="">
-            Services
-          </a>
-          <a className="pricing" href="">
-            Pricing
-          </a>
+          <div className="postinol">
+            <a className="post" href="">
+              Post job
+            </a>
+            <a className="programs" href="">
+              Programs
+            </a>
+          </div>
+          <div className="postinol">
+            <a className="service" href="">
+              Services
+            </a>
+            <a className="pricing" href="">
+              Pricing
+            </a>
+          </div>
         </div>
 
         <div className="logs">
