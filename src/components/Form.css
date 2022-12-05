@@ -148,13 +148,13 @@
     width: 430px;
   }
   .numbers {
-    width: 70%;
+    /* width: 70%; */
   }
   .name {
-    width: 70%;
+    /* width: 70%; */
   }
   .message {
-    width: 70%;
+    /* width: 70%; */
   }
   .shayo {
     /* padding-left: 20%; */
@@ -176,6 +176,7 @@
   }
   .consult {
     margin-left: 40px;
+    width: 350px;
   }
   .team {
     padding-left: 30px;

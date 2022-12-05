@@ -6,6 +6,7 @@ import Button from "./Button";
 import Cards from "./Cards";
 import Form from "./components/Form";
 import Footer from "./components/Footer";
+import React from "react";
 function App() {
   return (
     <div className="App">

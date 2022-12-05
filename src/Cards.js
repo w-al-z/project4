@@ -17,7 +17,9 @@ const Cards = () => {
 
           <div className="signnow">
             <p className="upnow">Signup now</p>
-            <img src={arrow} />
+            <div>
+              <img className="arrowing" src={arrow} />
+            </div>
           </div>
         </div>
         <div className="space1-pro">
@@ -39,7 +41,9 @@ const Cards = () => {
 
           <div className="signnow">
             <p className="upnow">Signup now</p>
-            <img src={arrow} />
+            <div>
+              <img className="arrowing" src={arrow} />
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +61,9 @@ const Cards = () => {
 
           <div className="signnow">
             <p className="upnow">Signup now</p>
-            <img src={arrow} />
+            <div className="arrowing">
+              <img src={arrow} />
+            </div>
           </div>
         </div>
 

@@ -20,6 +20,12 @@
   display: flex;
   gap: 10px;
   padding-top: 30px;
+  /* justify-content: center; */
+}
+.arrowing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .upnow {
   font-weight: 500;
@@ -100,5 +106,13 @@
   .spaces3 {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .arrowing {
+    padding-top: 2px;
+  }
+}
+@media (max-width: 425px) {
+  .arrowing {
+    padding-top: 22px;
   }
 }
